@@ -1,0 +1,37 @@
+# --- Python e Ambientes Virtuais ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.env
+
+# --- Jupyter Notebooks ---
+# Ignora pastas de checkpoint (autosave do jupyter)
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# --- IDEs e Editores ---
+.vscode/
+.idea/
+*.swp
+
+# --- Dados e Bancos de Dados (CRUCIAL) ---
+# Ignora o banco de dados local e arquivos CSV
+*.db
+*.sqlite
+*.sqlite3
+*.csv
+*.xlsx
+*.xls
+# Se você tiver uma pasta "data", ignore ela inteira:
+data/
+# Exceto se tiver um arquivo de exemplo que você QUER subir (use ! para exceção)
+# !data/exemplo_dummy.csv
+
+# --- Sistema Operacional ---
+.DS_Store
+Thumbs.db
+
+# --- Logs e Arquivos Temporários ---
+*.log
