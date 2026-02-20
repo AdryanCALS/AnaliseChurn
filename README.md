@@ -1,5 +1,7 @@
 # Previsão de Churn de Clientes: Do SQL ao Machine Learning
 
+🔗 **Link para o Repositório no GitHub:** [Previsão de Churn de Clientes](https://github.com/AdryanCALS/AnaliseChurn)
+
 ## Descrição do Projeto
 Este projeto apresenta a construção de um pipeline de dados end-to-end focado na resolução de um problema clássico de negócios: a evasão de clientes (Churn). O objetivo principal é identificar padrões de cancelamento e desenvolver um modelo preditivo capaz de classificar clientes com alto risco de abandono, permitindo que a equipe de retenção atue de forma proativa.
 
