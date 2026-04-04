@@ -11,10 +11,10 @@ from Clients c;*/ --Porcentagem de churn do DataSet
 
 --SELECT c.InternetService as Tipo_Internet, COUNT(c.InternetService) as QTD FROM Clients c GROUP BY c.InternetService-- Vendo os tipos de plano de internet
 
-/*SELECT
+SELECT
     c.Churn,
     AVG(c.MonthlyCharges) as Media_Mensalidade
 FROM
     Clients c
 GROUP BY
-    c.Churn;*/ -- analisando a mensalidade de pessoas que fizeram ou n churn
+    c.Churn; -- analisando a mensalidade de pessoas que fizeram ou n churn
