@@ -1,7 +1,5 @@
 # Previsão de Churn de Clientes: Do SQL ao Machine Learning
 
-🔗 **Link para o Repositório no GitHub:** [Previsão de Churn de Clientes](https://github.com/AdryanCALS/AnaliseChurn)
-
 ## Descrição do Projeto
 Este projeto apresenta a construção de um pipeline de dados end-to-end focado na resolução de um problema clássico de negócios: a evasão de clientes (Churn). O objetivo principal é identificar padrões de cancelamento e desenvolver um modelo preditivo capaz de classificar clientes com alto risco de abandono, permitindo que a equipe de retenção atue de forma proativa.
 
@@ -50,19 +48,18 @@ O desempenho estatístico foi validado utilizando a Curva ROC. O Gradient Boosti
 1. Clone este repositório:
    ```bash
    git clone [https://github.com/seu-usuario/seu-repositorio.git](https://github.com/seu-usuario/seu-repositorio.git)
-
+   ```
     Crie e ative um ambiente virtual:
-    Bash
-
+   ```bash
     python -m venv .venv
     source .venv/bin/activate  # No Linux/Mac
     .venv\Scripts\activate     # No Windows
-
+   ```
     Instale as dependências:
-    Bash
+    ```bash
 
     pip install -r python/requirements.txt
-
+    ```
     Execute o Jupyter Notebook contido na pasta python/ para visualizar as análises e o treinamento dos modelos.
 
 Projeto desenvolvido com foco na aplicação prática de Engenharia e Ciência de Dados para tomada de decisões estratégicas.
